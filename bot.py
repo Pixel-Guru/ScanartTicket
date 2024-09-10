@@ -24,9 +24,7 @@ class client(discord.Client):
         print(f"Sucesso | bot online entramos como  {self.user}.") 
 
 aclient = client()
-tree = app_commands.CommandTree(aclient)
-
-#-----------NÃO ALTERE NADA ACIMA DESSA LINHA-----------
+tree = app_commands.CommandTree(aclient)
 
 #-----------Inicio do menu 01-----------
 
